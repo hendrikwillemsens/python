@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
-length = input("type the length")
+x=input("type the length")
 
-width = input("type the width")
+y=input("type the width")
 
-height = input("type the height")
+z=input("type the height")
+
+a=x+y+z
+print(a)
 
