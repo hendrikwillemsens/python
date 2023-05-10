@@ -12,6 +12,7 @@ params = urllib.parse.urlencode(values)
 params = params.encode('utf-8') # data should be bytes
 url = 'https://www.google.com/search'
 request = urllib.request.Request(url, params)
+
 # Get response and read data
 #response = urllib.request.urlopen(request)
 #response_data = response.read()
@@ -38,6 +39,7 @@ try:
     response = urllib.request.urlopen(request)
     response_data = response.read()
     print(response_data)
+    
     save_file = open('google-search-with-headers.txt','w')
     save_file.write(str(response_data))
     save_file.close()
