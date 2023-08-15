@@ -1,0 +1,514 @@
+
+1. Legionella pneumophila
+Causes Legionnaire's disease
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 416
+
+2. Legionella
+Legionella sp. overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 3
+Genome ID: 14279
+
+3. Legionella longbeachae
+Legionella longbeachae overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 1393
+
+4. Legionella oakridgensis
+Legionella oakridgensis overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 1
+Genome ID: 24057
+
+5. Legionella quinlivanii
+Legionella quinlivanii overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42089
+
+6. Legionella jamestowniensis
+Legionella jamestowniensis overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42081
+
+7. Legionella sainthelensi
+Legionella sainthelensi overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 31584
+
+8. Legionella cherrii
+Legionella cherrii overview
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 31576
+
+9. Legionella moravica
+Legionella moravica overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 16168
+
+10. Legionella drozanskii
+Legionella drozanskii overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 14988
+
+11. Legionella fallonii
+Legionella fallonii overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 14818
+
+12. Legionella shakespearei
+Legionella shakespearei overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 14358
+
+13. Legionella anisa
+Legionella anisa overview
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 3
+Genome ID: 11652
+
+14. Legionella drancourtii
+Legionella drancourtii overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 2245
+
+15. Legionella israelensis
+
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 1
+Genome ID: 42083
+
+16. Legionella wadsworthii
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 32070
+
+17. Legionella lansingensis
+
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 31593
+
+18. Legionella fairfieldensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 31582
+
+19. Legionella geestiana
+
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 31575
+
+20. Legionella massiliensis
+Legionella massiliensis overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 33987
+
+21. Legionella antarctica
+Whole genome sequence of isolated strains.
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 107168
+
+22. Legionella taurinensis
+Legionella taurinensis overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 69070
+
+23. Legionella parisiensis
+Legionella parisiensis overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42087
+
+24. Legionella jordanis
+Legionella jordanis overview
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 42082
+
+25. Legionella feeleii
+Legionella feeleii overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42077
+
+26. Legionella rowbothamii
+Legionella rowbothamii overview
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 15573
+
+27. Legionella hackeliae
+Causes respiratory infections
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 1
+Genome ID: 11068
+
+28. Legionella bononiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 118544
+
+29. Legionella lytica
+
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 2
+Genome ID: 115779
+
+30. Legionella septentrionalis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 97505
+
+31. Legionella qingyii
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 97047
+
+32. Legionella genomosp. 1
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 94403
+
+33. Legionella gresilensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 76091
+
+34. Legionella yabuuchiae
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 75873
+
+35. Legionella nagasakiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 75872
+
+36. Legionella impletisoli
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 75871
+
+37. Legionella busanensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 71350
+
+38. Legionella beliardensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 71349
+
+39. Legionella donaldsonii
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 71344
+
+40. Legionella endosymbiont of Polyplax serrata
+
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 64574
+
+41. Legionella clemsonensis
+
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 56043
+
+42. Legionella saoudiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 52913
+
+43. Legionella spiritensis
+
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 42096
+
+44. Legionella santicrucis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42095
+
+45. Legionella rubrilucens
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42094
+
+46. Legionella waltersii
+
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 42093
+
+47. Legionella steigerwaltii
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42092
+
+48. Legionella tucsonensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42091
+
+49. Legionella steelei
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42090
+
+50. Legionella quateirensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42088
+
+
+51. Legionella nautarum
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42086
+
+52. Legionella maceachernii
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42085
+
+53. Legionella londiniensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42084
+
+54. Legionella gratiana
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42079
+
+55. Legionella erythra
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42078
+
+56. Legionella cincinnatiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42076
+
+57. Legionella worsleiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42075
+
+58. Legionella birminghamensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42074
+
+59. Legionella adelaidensis
+
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 28
+Genome ID: 42073
+
+60. Legionella bozemanae
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42072
+
+61. Legionella brunensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 42071
+
+62. Legionella norrlandica
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 34675
+
+63. Legionella tunisiensis
+
+Kingdom: Bacteria
+
+Chromosomes:  no data
+                
+Genome ID: 30664
+
+64. Candidatus Rickettsiella viridis
+genome sequence of Rickettsiella viridis
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 74821
+
+65. Vermamoeba vermiformis
+Environmental host for Legionella pneumophila
+Kingdom: Eukaryota
+
+Chromosomes:  no data
+                
+Organelles: 1
+Genome ID: 10709
+
+66. Saccharopolyspora erythraea
+Source of the antibiotic erythromycin
+Kingdom: Bacteria
+Chromosome: 1
+Genome ID: 688
+
+67. Coxiella burnetii
+Causes Q-fever
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 1
+Genome ID: 543
+
+68. Francisella tularensis
+Causative agent of tularemia
+Kingdom: Bacteria
+Chromosome: 1
+Plasmids: 1
+Genome ID: 511
+

@@ -2,7 +2,7 @@
 ################################################################################
 # 2.1 String methods
 ################################################################################
-
+'''
 # a) Ask for input and print in upper and lowercase
 str_in = input("Enter a word or sentence: ")
 print("In UPPERCASE: {}\n"
@@ -13,7 +13,7 @@ print("In UPPERCASE: {}\n"
 
 
 
-'''
+
 
 # b) Sequence and motif input, show position of motif in sequence
 seq = input("Enter a sequence: ")
@@ -22,7 +22,7 @@ find_pos = seq.find(motif)+1
 print("[FIND] Motif found at position: {}".format(find_pos))
 index_pos = seq.index(motif)
 print("[INDEX] Motif found at index: {}".format(index_pos))
-
+'''
 
 
 # c) Sequence and site input, split sequence in fragments by site
@@ -31,4 +31,3 @@ split = input("Cleave (split) sequence: ")
 result = seq.split(split)
 print("Sequence fragments: {}".format(result))
 
-'''
