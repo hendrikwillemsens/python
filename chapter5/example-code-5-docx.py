@@ -30,7 +30,7 @@ document.add_paragraph(
 # default appears at native size calculated as pixels/dpi
 from docx.shared import Inches, Cm
 # document.add_picture('python-scripting.png', width=Inches(1.25))
-document.add_picture('python-scripting.png', width=Cm(5))
+#      document.add_picture('python-scripting.png', width=Cm(5))
 ################################################################################
 # Adding a page break
 document.add_page_break()

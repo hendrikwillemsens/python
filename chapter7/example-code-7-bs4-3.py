@@ -30,7 +30,7 @@ print("\nDESCENDENTS OF TABLE:"
 for child in table_tag.descendants:
     print("NEW CHILD:\n{}".format(child))
 # Text nodes incl. line breaks ('\n'") --> also iterated
-
+'''
 ################################################################################
 # Look for a specific tag and attribute
 table_listing = soup.find("table", {"class":"listing"})
@@ -46,7 +46,7 @@ for td in td_separateur2:
     print("--> Name = {} | string = {}".format(td.name,td.string))
     c = c+1
 ################################################################################
-'''
+
 # Sleep for 3 sec
 import time
 print("\nSleeping...\n")
@@ -96,7 +96,8 @@ for td in td_separateur2:
         cazy_list = []
         # Reset column counter
         c = 1
-# Save file
+# Save 
+
 wb.save("GH100_all.xlsx")
 '''
 ################################################################################

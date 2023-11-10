@@ -8,6 +8,7 @@
 myInteger = 10        # integer assignment
 myFloat   = 9.9       # floating point
 myString  = "Paco"    # string
+list = ["Paco", "Hendrik", "Chloë"]
 
 print(myInteger)
 print(myFloat)
@@ -17,3 +18,4 @@ print("\nType of these variables:")
 print(myInteger, type(myInteger))
 print(myFloat, type(myFloat))
 print(myString, type(myString))
+print(list, type(list))

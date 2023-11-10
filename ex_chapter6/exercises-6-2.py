@@ -10,7 +10,7 @@ def getTime():
     timetuple = time.localtime(time.time())
     return str(timetuple.tm_hour) + "h" + str(timetuple.tm_min)
 
-'''
+
 ################################################################################
 # Version 1: few records, without saving in sqlite database
 ################################################################################
@@ -52,7 +52,6 @@ print("\nEnsembl hg38 transcript table: {} ENST records".format(enst_rows))
 # Show start and end time
 stop_time = getTime()
 print("\nStarted at {}\nReady at {}".format(start_time, stop_time))
-'''
 
 ################################################################################
 # Version 2: all transcript records inserted in sqlite database
@@ -92,13 +91,13 @@ for row in result:
     # Save in sqlite ensembl.db and commit
     clite.execute('''INSERT INTO enst VALUES(?,?,?,?)''',(c,row[2],row[4],row[3]))
     c = c + 1
-"""    try:
+        try:
            clite.execute('''INSERT INTO enst VALUES(?,?,?,?)''',(c,row[2],row[4],row[3]))
            conn_lite.commit()
        except sqlite3.IntegrityError:
            # If record would already exist
            print("\nIntegrityError! Maybe record already exists?")
-"""
+
 # Commit the changes to save in your database else table will be empty!
 conn_lite.commit()
 

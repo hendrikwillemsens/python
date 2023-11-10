@@ -1,0 +1,159 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  LysM.hmm
+# target sequence database:        GCA_002871555.1_ASM287155v1_translated_cds.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LysM  [M=44]
+Accession:   PF01476.20
+Description: LysM domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                               -----------
+    3.2e-93  302.5   6.8    4.4e-19   65.2   0.2    5.5  5  lcl|PNGN01000001.1_prot_PMC28436.1_47   [locus_tag=CJ225_00235] [protein
+    8.8e-17   57.8   0.2    3.3e-16   56.0   0.2    2.1  1  lcl|PNGN01000013.1_prot_PMC27289.1_502  [locus_tag=CJ225_06625] [protein
+    2.5e-13   46.8   1.3    5.7e-13   45.6   1.3    1.6  1  lcl|PNGN01000015.1_prot_PMC27110.1_632  [locus_tag=CJ225_07345] [protein
+    1.4e-12   44.3   0.4    3.6e-12   43.1   0.4    1.7  1  lcl|PNGN01000014.1_prot_PMC27171.1_551  [locus_tag=CJ225_06925] [protein
+      4e-12   42.9   0.4      4e-12   42.9   0.4    2.0  2  lcl|PNGN01000014.1_prot_PMC27168.1_547  [locus_tag=CJ225_06905] [protein
+    1.6e-09   34.6   0.0    3.1e-09   33.7   0.0    1.4  1  lcl|PNGN01000011.1_prot_PMC27458.1_260  [locus_tag=CJ225_05310] [protein
+
+
+Domain annotation for each sequence (and alignments):
+>> lcl|PNGN01000001.1_prot_PMC28436.1_47  [locus_tag=CJ225_00235] [protein=mannosyl-glycoprotein endo-beta-N-acetylgluco
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.4   0.1   1.8e-19   5.8e-17       1      43 [.     349     391 ..     349     392 .. 0.98
+   2 !   65.2   0.2   1.4e-21   4.4e-19       1      43 [.     421     463 ..     421     464 .. 0.98
+   3 !   60.3   0.0   4.6e-20   1.5e-17       1      43 [.     486     528 ..     486     529 .. 0.98
+   4 !   62.2   0.0   1.2e-20   3.9e-18       1      42 [.     549     590 ..     549     592 .. 0.97
+   5 !   56.2   0.0   8.7e-19   2.8e-16       1      42 [.     612     653 ..     612     654 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 58.4 bits;  conditional E-value: 1.8e-19
+                                            EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                   LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLki 43 
+                                            YtV++GDTL++IA+r+++tv+ l+++N +s+p++i++Gq+L +
+  lcl|PNGN01000001.1_prot_PMC28436.1_47 349 YTVQSGDTLSGIANRFSTTVNHLASLNDISNPNRIYVGQRLLV 391
+                                            9***************************************976 PP
+
+  == domain 2  score: 65.2 bits;  conditional E-value: 1.4e-21
+                                            EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                   LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLki 43 
+                                            YtV++GDTL++IA+++g+++e l+++Nn+s+p++i++Gq+Lk+
+  lcl|PNGN01000001.1_prot_PMC28436.1_47 421 YTVQSGDTLSGIANKFGTNYESLANLNNISNPNRIYVGQVLKL 463
+                                            9****************************************97 PP
+
+  == domain 3  score: 60.3 bits;  conditional E-value: 4.6e-20
+                                            EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                   LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLki 43 
+                                            Y Vk GD+L++IA+ryg+++e+l+++Nn+s+p++i++Gq+Lk+
+  lcl|PNGN01000001.1_prot_PMC28436.1_47 486 YSVKAGDSLSAIAARYGMSYETLARLNNISNPNRIYVGQVLKL 528
+                                            89***************************************97 PP
+
+  == domain 4  score: 62.2 bits;  conditional E-value: 1.2e-20
+                                            EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEE CS
+                                   LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLk 42 
+                                            YtVk+GD+L++IA+ryg+++e+l+++Nn+s+p++i++Gq+L 
+  lcl|PNGN01000001.1_prot_PMC28436.1_47 549 YTVKSGDSLSAIAARYGMSYETLARLNNISDPNRIYVGQTLN 590
+                                            9***************************************96 PP
+
+  == domain 5  score: 56.2 bits;  conditional E-value: 8.7e-19
+                                            EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEE CS
+                                   LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLk 42 
+                                            Yt++ GDTL++IA+ryg+++e+l+++Nn+s+p++i +Gq+++
+  lcl|PNGN01000001.1_prot_PMC28436.1_47 612 YTIQAGDTLSAIAARYGMSYETLARLNNISDPNRIVAGQRIV 653
+                                            9***************************************98 PP
+
+>> lcl|PNGN01000013.1_prot_PMC27289.1_502  [locus_tag=CJ225_06625] [protein=peptidase P60] [protein_id=PMC27289.1] [loca
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   0.2     1e-18   3.3e-16       1      43 [.      87     129 ..      87     130 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 1e-18
+                                             EEE-TT--HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                    LysM   1 YtVkkGDTLwsIAkrygitveklleaNnlsspdkifpGqkLki 43 
+                                             Y+Vk+GDTL+ +A ++++++++l ++N++++pd+i++Gq+L i
+  lcl|PNGN01000013.1_prot_PMC27289.1_502  87 YVVKSGDTLSELAVQFNVSLNDLVAWNHIQNPDLIYVGQQLSI 129
+                                             9****************************************98 PP
+
+>> lcl|PNGN01000015.1_prot_PMC27110.1_632  [locus_tag=CJ225_07345] [protein=peptidase M23] [protein_id=PMC27110.1] [loca
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   1.3   1.7e-15   5.7e-13       1      44 []      34      80 ..      34      80 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 1.7e-15
+                                            EEE-TT--HHHHHHHC...TCHHHHHHHHCTCSSCGG--TTEEEEEE CS
+                                    LysM  1 YtVkkGDTLwsIAkry...gitveklleaNnlsspdkifpGqkLkiP 44
+                                            YtVk+GDTL+sI+ ++   +  v+++++ N +++ +ki++Gq+L+i+
+  lcl|PNGN01000015.1_prot_PMC27110.1_632 34 YTVKSGDTLSSISYKFnknNSLVNEIAQKNSIKDINKIYVGQRLIIK 80
+                                            9******************9999**********************95 PP
+
+>> lcl|PNGN01000014.1_prot_PMC27171.1_551  [locus_tag=CJ225_06925] [protein=peptidase M23] [protein_id=PMC27171.1] [loca
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   0.4   1.1e-14   3.6e-12       1      43 [.      35      80 ..      35      81 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 1.1e-14
+                                            EEE-TT--HHHHHHHC...TCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                    LysM  1 YtVkkGDTLwsIAkry...gitveklleaNnlsspdkifpGqkLki 43
+                                            YtV++GDTL++I+ +     + v++l++ Nn+ + ++i++GqkL+i
+  lcl|PNGN01000014.1_prot_PMC27171.1_551 35 YTVQSGDTLSGISYKLghdLTFVDTLASNNNIANKNLIYVGQKLVI 80
+                                            9*****************888889999999***************9 PP
+
+>> lcl|PNGN01000014.1_prot_PMC27168.1_547  [locus_tag=CJ225_06905] [protein=peptidase M23] [protein_id=PMC27168.1] [loca
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.9   0.4   1.2e-14     4e-12       1      43 [.      36      81 ..      36      82 .. 0.95
+   2 ?   -3.1   0.1         3   9.7e+02      12      27 ..     116     131 ..     113     137 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 42.9 bits;  conditional E-value: 1.2e-14
+                                            EEE-TT--HHHHHHHC...TCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                    LysM  1 YtVkkGDTLwsIAkry...gitveklleaNnlsspdkifpGqkLki 43
+                                            YtV++GDTL++I+ +     + v++l++ Nn+ + ++i++GqkL+i
+  lcl|PNGN01000014.1_prot_PMC27168.1_547 36 YTVQSGDTLSGISYKLghdLTFVDTLASNNNIANKNLIYVGQKLVI 81
+                                            9*****************888889999999***************9 PP
+
+  == domain 2  score: -3.1 bits;  conditional E-value: 3
+                                             HHHHCTCHHHHHHHHC CS
+                                    LysM  12 IAkrygitveklleaN 27 
+                                             +A++ + + ++ ++aN
+  lcl|PNGN01000014.1_prot_PMC27168.1_547 116 VASQSQAQSQQVASAN 131
+                                             5666677778888888 PP
+
+>> lcl|PNGN01000011.1_prot_PMC27458.1_260  [locus_tag=CJ225_05310] [protein=peptidoglycan-binding protein LysM] [protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   0.0   9.5e-12   3.1e-09       8      43 ..     152     187 ..     146     188 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 9.5e-12
+                                             -HHHHHHHCTCHHHHHHHHCTCSSCGG--TTEEEEE CS
+                                    LysM   8 TLwsIAkrygitveklleaNnlsspdkifpGqkLki 43 
+                                             +L+++A+++gi+v++l+++N+l ++ +++pGq+L++
+  lcl|PNGN01000011.1_prot_PMC27458.1_260 152 SLYRVAAQNGISVNELMRLNGLTPNAHLRPGQQLRV 187
+                                             8*********************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (44 nodes)
+Target sequences:                         1962  (573666 residues searched)
+Passed MSV filter:                        83  (0.0423038); expected 39.2 (0.02)
+Passed bias filter:                       71  (0.0361876); expected 39.2 (0.02)
+Passed Vit filter:                        12  (0.00611621); expected 2.0 (0.001)
+Passed Fwd filter:                         6  (0.0030581); expected 0.0 (1e-05)
+Initial search space (Z):               1962  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 2524.13
+//
+[ok]

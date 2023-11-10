@@ -1,0 +1,55 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  Thiol_cytolys_C.hmm
+# target sequence database:        GCA_004336715.1_ASM433671v1_translated_cds.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Thiol_cytolys_C  [M=102]
+Accession:   PF17440.2
+Description: Thiol-activated cytolysin beta sandwich domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                               -----------
+    3.2e-43  142.5   0.8    8.6e-43  141.1   0.8    1.8  1  lcl|SJXA01000003.1_prot_TCH80746.1_667  [gene=vly] [locus_tag=E0E48_0339
+
+
+Domain annotation for each sequence (and alignments):
+>> lcl|SJXA01000003.1_prot_TCH80746.1_667  [gene=vly] [locus_tag=E0E48_03395] [protein=cholesterol-dependent cytolysin v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  141.1   0.8   6.2e-46   8.6e-43       2     102 .]     433     533 ..     432     533 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 141.1 bits;  conditional E-value: 6.2e-46
+                                             EEEEEESSSEEEEEEEEEEEEE-TTS-EEEEEEE-TTTT-EBESSEEEEEEE-TTEEEEEEEEEEESSSST CS
+                         Thiol_cytolys_C   2 itldhsGayvAkfeitwdevsydeegkevvkkkeWegngkdrtakfsttiqlkgnarnirvkarevtGlaw 72 
+                                             +tldh+GayvA+++i+wde+ ++ +g+ +v++++Wegngk rta+f+ttiq+kgn+rn+r+k+ e tGl+w
+  lcl|SJXA01000003.1_prot_TCH80746.1_667 433 LTLDHRGAYVARYYIYWDEYGTEIDGTPYVRSRAWEGNGKYRTAHFNTTIQFKGNVRNLRIKLVEKTGLVW 503
+                                             79********************************************************************* PP
+
+                                             CGEEEEEEEEEE---SEEEEEEEEESSSEE CS
+                         Thiol_cytolys_C  73 ekWrtvidkkdlplvkertisiwGttlvpk 102
+                                             e Wrtv+d++dlplv++rtis wGttl+p+
+  lcl|SJXA01000003.1_prot_TCH80746.1_667 504 EPWRTVYDRSDLPLVRQRTISNWGTTLWPR 533
+                                             ***************************995 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (102 nodes)
+Target sequences:                         1382  (487976 residues searched)
+Passed MSV filter:                        48  (0.0347323); expected 27.6 (0.02)
+Passed bias filter:                       34  (0.024602); expected 27.6 (0.02)
+Passed Vit filter:                         2  (0.00144718); expected 1.4 (0.001)
+Passed Fwd filter:                         1  (0.000723589); expected 0.0 (1e-05)
+Initial search space (Z):               1382  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

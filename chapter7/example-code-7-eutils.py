@@ -6,7 +6,7 @@ from eutils import Client
 # Initialize client that handles all caching and query
 # Using API key from NCBI account settings e.g. 
 
-eclient = Client(api_key="e784a606fa8fcfdc3c3bdaa58aecbd796609")
+eclient = Client(api_key="c77ce1e1071a79329dcbc1999a5f6e34a308")
 print("\nUsing NCBI E-utilities in Python\n")
 
 ################################################################################

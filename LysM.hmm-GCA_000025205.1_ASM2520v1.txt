@@ -1,0 +1,93 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  LysM.hmm
+# target sequence database:        GCA_000025205.1_ASM2520v1_translated_cds.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LysM  [M=44]
+Accession:   PF01476.20
+Description: LysM domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                           -----------
+    1.6e-10   37.2   0.0    3.4e-10   36.1   0.0    1.6  1  lcl|CP001849.1_prot_ADB13687.1_535  [locus_tag=HMPREF0424_0573] [pro
+     0.0021   14.4   0.0       0.09    9.2   0.1    2.2  2  lcl|CP001849.1_prot_ADB14346.1_894  [locus_tag=HMPREF0424_0958] [pro
+     0.0035   13.7   0.0       0.36    7.2   0.0    2.9  2  lcl|CP001849.1_prot_ADB13638.1_266  [gene=infB] [locus_tag=HMPREF042
+
+
+Domain annotation for each sequence (and alignments):
+>> lcl|CP001849.1_prot_ADB13687.1_535  [locus_tag=HMPREF0424_0573] [protein=LysM domain protein] [protein_id=ADB13687.1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.1   0.0   8.2e-13   3.4e-10       1      44 []      71     120 ..      71     120 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 36.1 bits;  conditional E-value: 8.2e-13
+                                         EEE-TT--HHHHHHHC.......TCHHHHHHHHCTCSSCGG--TTEEEEEE CS
+                                LysM   1 YtVkkGDTLwsIAkry.......gitveklleaNnlsspdkifpGqkLkiP 44 
+                                         YtV++GDTLw  A+         + +ve+l+++N+lss d + +Gq + +P
+  lcl|CP001849.1_prot_ADB13687.1_535  71 YTVRPGDTLWNYAATItpkngdiSDNVERLMALNHLSSED-LVIGQSINVP 120
+                                         9**********************99***************.*******998 PP
+
+>> lcl|CP001849.1_prot_ADB14346.1_894  [locus_tag=HMPREF0424_0958] [protein=DNA-binding helix-turn-helix protein] [prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0     0.013       5.6       4      23 ..      12      31 ..      10      42 .. 0.87
+   2 !    9.2   0.1   0.00021      0.09       9      25 ..      46      62 ..      44      73 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.013
+                                        -TT--HHHHHHHCTCHHHHH CS
+                                LysM  4 kkGDTLwsIAkrygitvekl 23
+                                        kkG TL  ++k+ gi+  +l
+  lcl|CP001849.1_prot_ADB14346.1_894 12 KKGMTLKELSKKAGIPPTTL 31
+                                        8999*********9987665 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.00021
+                                        HHHHHHHCTCHHHHHHH CS
+                                LysM  9 LwsIAkrygitveklle 25
+                                        L++IA + g+t++++++
+  lcl|CP001849.1_prot_ADB14346.1_894 46 LYQIATALGTTINDIAD 62
+                                        89*************97 PP
+
+>> lcl|CP001849.1_prot_ADB13638.1_266  [gene=infB] [locus_tag=HMPREF0424_0285] [protein=translation initiation factor IF
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0     0.017       7.1       4      23 ..     362     381 ..     359     383 .. 0.86
+   2 !    7.2   0.0   0.00087      0.36      10      27 ..     593     610 ..     588     623 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 3.1 bits;  conditional E-value: 0.017
+                                         -TT--HHHHHHHCTCHHHHH CS
+                                LysM   4 kkGDTLwsIAkrygitvekl 23 
+                                         ++G TL+++A + +++  +l
+  lcl|CP001849.1_prot_ADB13638.1_266 362 RQGATLSDLAEKIDVNPAAL 381
+                                         6788***********98877 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.00087
+                                         HHHHHHCTCHHHHHHHHC CS
+                                LysM  10 wsIAkrygitveklleaN 27 
+                                          +I++++g++v+kllea 
+  lcl|CP001849.1_prot_ADB13638.1_266 593 VDISAKQGTNVNKLLEAV 610
+                                         49*************996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (44 nodes)
+Target sequences:                         1258  (456635 residues searched)
+Passed MSV filter:                        42  (0.0333863); expected 25.2 (0.02)
+Passed bias filter:                       38  (0.0302067); expected 25.2 (0.02)
+Passed Vit filter:                         6  (0.00476948); expected 1.3 (0.001)
+Passed Fwd filter:                         3  (0.00238474); expected 0.0 (1e-05)
+Initial search space (Z):               1258  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 2009.19
+//
+[ok]

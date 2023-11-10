@@ -27,6 +27,7 @@ try:
     save_file.close()
 except Exception as e:
     print(str(e))
+
 ### 7.1b #######################################################################
 # Data from Pfam
 # http://pfam.xfam.org/
